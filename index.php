@@ -14,8 +14,8 @@
       <section>
         <form class="form" method="post" action="authentication.php">
           <fieldset>
-            <p>User<br><input type="text" name="user" placeholder="User"></br></p>
-            <p>Password<br><input type="password" name="password" placeholder="Password"></br></p>
+            <p>User<br><input type="text" name="user" placeholder="User"></p>
+            <p>Password<br><input type="password" name="password" placeholder="Password"></p>
             <input type="submit" name="submit" value="Submit"><br>
             <p>
               <?php
