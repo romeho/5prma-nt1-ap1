@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+}
+
+.menu {
+  height: 50px;
+}
+
+.container {
+  padding: 50px 50px 50px 50px;
+  width: 500px;
+  margin: 13% auto 10px auto;
+  background-color: #e6e6e6;
+  box-shadow: 5px 5px 5px 5px rgba(.05, .05, .05, .05);
+  border-radius: 2%;
+}
+
+.menu ul{
+  list-style: none;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%
+}
+
+.menu li {
+  display: inline;
+  background-color: #ddd;
+  padding: 10px;
+  margin: 2px;
+  border-radius: 5%;
+}
+
+fieldset {
+  text-align: center;
+}
